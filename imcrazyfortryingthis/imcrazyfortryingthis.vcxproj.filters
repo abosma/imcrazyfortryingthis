@@ -13,5 +13,36 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\core">
+      <UniqueIdentifier>{9e65d757-3c40-4846-8c8e-85482e7de274}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\core\Main">
+      <UniqueIdentifier>{e56deded-8e54-4e46-b373-4c560fff7ebb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\core\defines">
+      <UniqueIdentifier>{75987bc8-6ac9-4c8f-ae59-beda5b6e4e6d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="winMain.cpp">
+      <Filter>Header Files\core\Main</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="winMain.h">
+      <Filter>Header Files\core\Main</Filter>
+    </ClInclude>
+    <ClInclude Include="string.h">
+      <Filter>Header Files\core\defines</Filter>
+    </ClInclude>
+    <ClInclude Include="iostream.h">
+      <Filter>Header Files\core\defines</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
